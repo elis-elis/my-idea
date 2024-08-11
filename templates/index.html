@@ -1,49 +1,51 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" 
-    href="index-my-idea.css">
-        <title>make poetry sexy again</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <title>make poetry sexy (again)</title>
     </head>
 <body>
     <div class="top-part">
         <p>
-            <h1>you just don't know....</h1>
-            <h3>but it's ok.</h3>
-            <h4>you can stay.</h4>
-            <h5>you are almost welcome.</h5>
-        </p>
+            <h1>you just don't know...<small><em>(yet)</em></small>.</h1>
+            <h3>you can stay.</h3>
+            <h4><small>but</small> it's ok.</h4>
+            <h5><small>you're almost</small> <strong>welcome</strong> here.</h5>
     </div>
     <div class="question-with-tick-boxes">
-    <h2 id="question">are you alone?</h2>
-    <ul>
-        <label class="container">fortunately yes
-            <input type="checkbox" checked="checked">
-            <span class="checkmark"></span>
-          </label> <br>
+        <h2 id="question">are you <small>alone?</small></h2>
+        <ul>
+            <label class="container">fortunately yes
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label> <br>
 
-        <label class="container">unfortunately no
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label> <br>
+            <label class="container">unfortunately no
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label> <br>
         
-        <label class="container">plausible maybe
-            <input type="checkbox">
-            <span class="checkmark"></span>
-        </label> <br>
+            <label class="container">plausible maybe
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label> <br>
         
-        <label class="container">i don't know actually
-            <input type="checkbox">
-            <span class="checkmark"></span>
-          </label> <br>
+            <label class="container">i don't know actually
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label> <br>
         
-        <label class="container">am i?
-            <input type="checkbox">
-            <span class="checkmark"></span>
-        </label> <br>
-    </ul>
+            <label class="container">am i?
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label> <br>
+        </ul>
     </div>
-
+    <div class="fixed-link">
+        <a href="/blog-area"><small>click at your own risk</small> ;) to check blog area</a>
+    </div>
 
 
 

@@ -1,24 +1,22 @@
-body {
-    background-color: rgb(255, 204, 204);
-  }
 
 .container {
     display: block;
     position: relative;
     padding-left: 20px;
     margin-bottom: 8px;
-    cursor: pointer;
+    cursor: help;
     font-size: 16px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    font-family: Helvetica;
   }
 
   .container input {
     position: absolute;
     opacity: 0;
-    cursor:grab;
+    cursor: help;
     height: 0;
     width: 0;
   }
@@ -67,7 +65,7 @@ body {
     font-family: Impact;
     font-weight: lighter;
     font-size: 55px;
-    text-shadow: 4px 4px 4px #ed0303;
+    text-shadow: 4px 2px 1px #ed0303;
   }
 
 .top-part {
@@ -105,10 +103,30 @@ h4 {
 }
 
 h5 {
-        color: rgb(164, 164, 74);
-        font-family: Helvetica;
-        font-size: 33px;
-        font-weight: lighter;
-        float: right;
-        text-shadow: 2px 2px 2px #f4d9d9;
+    color: rgb(164, 164, 74);
+    font-family: Helvetica;
+    font-size: 33px;
+    font-weight: lighter;
+    float: right;
+    text-shadow: 2px 2px 2px #f4d9d9;
+}
+
+.fixed-link {
+    position: fixed;
+    bottom: 10px;
+    center: 5px;
+}
+
+.fixed-link a {
+    color: darksalmon;
+    text-decoration: none;
+    font-weight: normal;
+    font-size:30px;
+    font-family: Impact;
+}
+
+.fixed-link a:hover {
+    color: darkslategray;
+    text-decoration: overline;
+    cursor: default;
 }
