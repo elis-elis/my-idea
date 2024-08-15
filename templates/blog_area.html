@@ -7,12 +7,32 @@
         <title>so what ?!</title>
     </head>
 <body>
-    <!-- background image -->
-    <img id="bg-image" src="static/black and white images/zebra_skin.png" alt="zebra-skin-image">
-
-
-
     <!-- navigation -->
+    <div class="navigation-top">
+        <a href="/">🍒 home,sweet,home</a>
+        <input type="search"/>
+        <button>Appreciation</button>
+        <p>Private Collection</p>
+        <p>Sign up</p>
+    </div>
+    <!-- background image -->
+    <img id="bg-image" src="static/black and white images/cropped_skin_3.png" alt="zebra-skin-image">
 
+    <!-- blog post containers -->
+    <div class="blog-posts-container">
+        <div class="blog-post">
+            <a href="{{ url_for('poem1') }}" class="blog-post">
+            <img src="static/black and white images/eye.png" alt="eye is watching you">
+            <h3>blind spots in the eye</h3>
+        </a>
+        </div>
+
+        <div class="blog-post">
+            <a href="{{ url_for('poem2') }}" class="blog-post">
+            <img src="static/black and white images/flowers.png" alt="flowers for (your) funeral">
+            <h3>i am: else</h3>
+        </div>
+
+    </div>
 </body>
 </html>
