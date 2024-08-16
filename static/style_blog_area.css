@@ -38,6 +38,10 @@
     color: ghostwhite;
 }
 
+.navigation-top button:hover {
+    box-shadow: 2px 2px red;
+}
+
 .navigation-top input[type="search"] {
     display: flex;
     width: 250px;
@@ -60,7 +64,8 @@
     padding: 20px;
 }
 
-.blog-post {
+.blog-post,
+.blog-poem {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -70,7 +75,8 @@
     padding: 10px;
 }
 
-.blog-post:hover {
+.blog-post:hover,
+.blog-poem:hover {
     box-shadow: 5px 5px 5px black;
 }
 
