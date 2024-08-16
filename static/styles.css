@@ -31,7 +31,8 @@ a {
 /* Back to Blog Area */
 
 .back-to-blog {
-    text-align: center;
+    display: flex;
+    justify-content: center;
     margin: 20px 0;
 }
 

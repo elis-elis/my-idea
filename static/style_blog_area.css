@@ -69,6 +69,13 @@
     padding: 20px;
 }
 
+.blog-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .blog-card,
 .blog-poem {
     border-radius: 5px;
@@ -76,7 +83,7 @@
     overflow: hidden;
     text-align: left;
     text-decoration: none;
-    display: block; /* Make the entire blog post clickable */
+    display: block;  /* Make the entire blog post clickable */
     padding: 10px;
 }
 
@@ -114,5 +121,13 @@
     padding: 20px;
     color: darkgrey;
     margin-top: 40px;
+}
+
+/* Social Sharing */
+
+.social-sharing {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 4px;
 }
 
