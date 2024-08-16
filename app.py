@@ -23,5 +23,10 @@ def poem2():
     return render_template('poem2.html')
 
 
+@app.route("/poem3")
+def poem3():
+    return render_template('poem3.html')
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)

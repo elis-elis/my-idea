@@ -15,7 +15,7 @@ a:hover {
 }
 
 a {
-    color: black;
+    color: darkolivegreen;
     text-decoration: none;
 }
 
@@ -60,6 +60,6 @@ a {
     .navigation-top a,
     .navigation-top p,
     .navigation-top button {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
