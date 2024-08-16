@@ -5,44 +5,47 @@
     display: block;
 }
 
-.navigation-top {
+/* Navigation bar Styling */
+
+.navigation-bar {
     display: flex;
-    align-items: center; /* Centers items vertically */
+    justify-content: space-between;
+    align-items: center;
     gap: 10px;
     height: 50px;
 }
 
-.navigation-top a,
-.navigation-top p,
-.navigation-top input,
-.navigation-top button {
+.navigation-bar a,
+.navigation-bar p,
+.navigation-bar input,
+.navigation-bar button {
     margin: 10px;
     padding: 10px;
 }
 
-.navigation-top a,
-.navigation-top p,
-.navigation-top button {
+.navigation-bar a,
+.navigation-bar p,
+.navigation-bar button {
     color: black;
     font-weight: normal;
     font-size: 18px;
 }
 
-.navigation-top a {
+.navigation-bar a {
     text-decoration: none;
 }
 
-.navigation-top button {
+.navigation-bar button {
     border-radius: 6px;
     border: 1px solid red;
     color: ghostwhite;
 }
 
-.navigation-top button:hover {
-    box-shadow: 2px 2px red;
+.navigation-bar button:hover {
+    box-shadow: 2px 2px darkred;
 }
 
-.navigation-top input[type="search"] {
+.navigation-bar input[type="search"] {
     display: flex;
     width: 250px;
     height: 100px;
@@ -57,6 +60,8 @@
     cursor: wait;
 }
 
+/* Blog Post Cards */
+
 .blog-posts-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -64,23 +69,27 @@
     padding: 20px;
 }
 
-.blog-post,
+.blog-card,
 .blog-poem {
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
     display: block; /* Make the entire blog post clickable */
     padding: 10px;
 }
 
-.blog-post:hover,
+.blog-card:hover,
 .blog-poem:hover {
     box-shadow: 5px 5px 5px black;
 }
 
-.blog-post img {
+.blog-poem img:hover {
+    cursor: grab;
+}
+
+.blog-card img {
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -88,7 +97,22 @@
     margin: 0 auto;
 }
 
-.blog-post h3 {
+.blog-card h3 {
     margin-top: 10px;
     font-size: 1.2rem;
 }
+
+.blog-card p {
+    margin: 10px 0;
+    color: grey;
+}
+
+/* Footer Styling */
+
+.footer {
+    text-align: right;
+    padding: 20px;
+    color: darkgrey;
+    margin-top: 40px;
+}
+

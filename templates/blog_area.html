@@ -8,38 +8,54 @@
     </head>
 <body>
     <!-- navigation -->
-    <div class="navigation-top">
+    <nav class="navigation-bar">
         <a href="/">🍒 home,sweet,home</a>
         <input type="search"/>
         <button>Appreciation</button>
         <p id="private">Private Collection</p>
         <p id="sign-up">Sign up</p>
-    </div>
+    </nav>
     <!-- background image -->
-    <img id="bg-image" src="static/black and white images/cropped_skin_3.png" alt="zebra-skin-image">
+    <img id="bg-image" src="static/background_image.png" alt="make poetry sexy again, please ;)">
 
     <!-- blog post containers -->
     <div class="blog-posts-container">
-        <div class="blog-post">
+        <div class="blog-card">
             <a href="{{ url_for('poem1') }}" class="blog-poem">
-            <img src="static/black and white images/eye.png" alt="eye is watching you">
-            <h3>blind spots in the eye</h3>
+                <img src="static/black and white images/eye.png" alt="eye is watching you">
+                <div class="card-content">
+                    <h3>blind spots in the eye</h3>
+                </div>
             </a>
+            <p>...Cutting and crying. And watching those long virgin hairs get weighed down on those scales. ...</p>
         </div>
 
-        <div class="blog-post">
+        <div class="blog-card">
             <a href="{{ url_for('poem2') }}" class="blog-poem">
-            <img src="static/black and white images/flowers.png" alt="flowers for (your) funeral">
-            <h3>i am: else</h3>
+                <img src="static/black and white images/flowers.png" alt="flowers for (your) funeral">
+                <div class="card-content">
+                    <h3>i am: else</h3>
+                </div>
             </a>
+            <p>...so he begins to collect nameless various flowers to protect himself from loneliness. or is it boredom. ...</p>
         </div>
 
-        <div class="blog-post">
+        <div class="blog-card">
             <a href="{{ url_for('poem3') }}" class="blog-poem">
-            <img src="static/black and white images/silhuette.png" alt="your silhouette or mine?">
-            <h3>involution of my life</h3>
+                <div class="card-content">
+                    <img src="static/black and white images/silhuette.png" alt="your silhouette or mine?">
+                    <div class="card-content">
+                        <h3>HIATUS (pause)</h3>
+                    </div>
+                </div>
             </a>
+            <p>...and i imagine that i’m firing an invisible gun right into this laugh. ...</p>
         </div>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2024 elisELIS blog. All rights reserved.</p>
+    </footer>
 </body>
 </html>

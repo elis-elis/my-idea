@@ -19,6 +19,22 @@ a {
     text-decoration: none;
 }
 
+/* Poems html */
+
+.poem {
+    padding: 20px;
+    line-height: 1.6;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+/* Back to Blog Area */
+
+.back-to-blog {
+    text-align: center;
+    margin: 20px 0;
+}
+
 @media (min-width: 901px) {
     /* Styles for screens 901px wide or more */
     .blog-posts-container {
@@ -29,6 +45,10 @@ a {
 
     .navigation-top {
         justify-content: space-between; /* Evenly distribute items */
+    }
+
+    .poem{
+        font-size: 1.1rem;
     }
 }
 
