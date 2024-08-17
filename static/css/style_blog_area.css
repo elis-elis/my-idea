@@ -35,6 +35,13 @@
     text-decoration: none;
 }
 
+.navigation-bar a:hover {
+    color: red;
+    text-decoration: overline;
+    cursor: default;
+}
+
+
 .navigation-bar button {
     border-radius: 6px;
     border: 1px solid red;
@@ -48,8 +55,8 @@
 .navigation-bar input[type="search"] {
     display: flex;
     width: 250px;
-    height: 100px;
-    margin-top: 2px;
+    height: 40px;
+    margin-top: 4px;
 }
 
 #private {

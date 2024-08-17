@@ -1,7 +1,7 @@
 /* main styling file */
 
-@import url('style_index.css');
-@import url('style_blog_area.css');
+@import url('/static/css/style_index.css');
+@import url('/static/css/style_blog_area.css');
 
 body {
     background-color: mistyrose;

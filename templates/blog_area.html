@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+        <link rel="stylesheet" href="/static/css/styles.css">
+        <link rel="stylesheet" href="/static/css/style_blog_area.css">
         <title>so what ?!</title>
     </head>
 <body>
@@ -16,13 +17,13 @@
         <p id="sign-up">Sign up</p>
     </nav>
     <!-- background image -->
-    <img id="bg-image" src="static/background_image.png" alt="make poetry sexy again, please ;)">
+    <img id="bg-image" src="/static/imgs/background_image.png" alt="make poetry sexy again, please ;)">
 
     <!-- blog post containers -->
     <div class="blog-posts-container">
         <div class="blog-card">
             <a href="{{ url_for('poem1') }}" class="blog-poem">
-                <img src="static/black and white images/eye.png" alt="eye is watching you">
+                <img src="/static/imgs/eye.png" alt="eye is watching you">
                 <div class="card-content">
                     <h3>blind spots in the eye</h3>
                 </div>
@@ -32,7 +33,7 @@
 
         <div class="blog-card">
             <a href="{{ url_for('poem2') }}" class="blog-poem">
-                <img src="static/black and white images/flowers.png" alt="flowers for (your) funeral">
+                <img src="/static/imgs/flowers.png" alt="flowers for (your) funeral">
                 <div class="card-content">
                     <h3>i am: else</h3>
                 </div>
@@ -43,7 +44,7 @@
         <div class="blog-card">
             <a href="{{ url_for('poem3') }}" class="blog-poem">
                 <div class="card-content">
-                    <img src="static/black and white images/silhuette.png" alt="your silhouette or mine?">
+                    <img src="/static/imgs/silhuette.png" alt="your silhouette or mine?">
                     <div class="card-content">
                         <h3>HIATUS (pause)</h3>
                     </div>
